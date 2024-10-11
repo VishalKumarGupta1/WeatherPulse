@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherPulse</title>
+    <link rel="shortcut icon"
+        href=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAuu9dZvX0wN8YVn-N4uBSWDT0L3XlvgI3zw&s"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="container">
+        <!-- input field city search -->
+        <div class="head1">
+            <form class="search">
+                <i class="fa-sharp fa-solid fa-magnifying-glass-location"></i>
+                <input autocomplete="off" type="text" class="cityname" placeholder="Search Your City...">
+            </form>
+        </div>
+        <!-- Weather main data -->
+        <div class="head2">
+            <h1 class="Weathercity">Ballia , India</h1>
+            <p class="Weathertimedate">friday septemer23 ,2024 at 10:37am</p>
+            <div class="Weatherdata">
+                <div class="weatherforecast">
+                    <p>Clouds</p>
+                </div>
+                <div class="weathericon"> </div>
+                <div class="weathertemperature">
+                    <p>37°C</p>
+                </div>
+                <div class="weatherminmax">
+                    <p class="weathermin">Min : 32°C</p>
+                    <p class="weathermax">Max : 41°C</p>
+                </div>
+            </div>
+        </div>
+        <!-- Weather extra data -->
+        <div class="weatherinfo">
+            <div class="item weatherinfo1">
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <p>Feels like</p>
+                <br>
+                <p class="weatherfeel">275°</p>
+            </div>
+            <div class="item weatherinfo2">
+                <i class="fa-solid fa-droplet"></i>
+                <p>Humidity</p>
+                <br>
+                <p class="weatherhumidity">89%</p>
+            </div>
+            <div class="item weatherinfo3">
+                <i class="fa-solid fa-wind"></i>
+                <p>Wind</p>
+                <br>
+                <p class="weatherwind">3.58 m/s</p>
+            </div>
+            <div class="item weatherinfo4">
+                <i class="fa-solid fa-gauge-high"></i>
+                <p>Pressure</p>
+                <br>
+                <p class="weatherpressure">983 hPa</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -4,15 +4,15 @@ WeatherPulse is a simple yet powerful weather application that allows users to g
 
 ## Features
 
-- *City Input*: Easily enter the name of your city to retrieve weather data.
-- *Current Weather Data*: Get the latest weather information, including:
-  - *Temperature*: Current temperature in Celsius or Fahrenheit.
-  - *Weather Conditions*: Detailed description (e.g., clear, sunny, rainy).
-  - *Cloud Coverage*: Information on cloudiness.
-  - *Humidity*: Current humidity levels.
-  - *Pressure*: Atmospheric pressure readings.
-  - *Wind Speed*: Current wind speed and direction.
-  - *Feels Like*: Temperature that feels like based on humidity and wind conditions.
+- **City Input**: Easily enter the name of your city to retrieve weather data.
+- **Current Weather Data**: Get the latest weather information, including:
+  - **Temperature**: Current temperature in Celsius or Fahrenheit.
+  - **Weather Conditions**: Detailed description (e.g., clear, sunny, rainy).
+  - **Cloud Coverage**: Information on cloudiness.
+  - **Humidity**: Current humidity levels.
+  - **Pressure**: Atmospheric pressure readings.
+  - **Wind Speed**: Current wind speed and direction.
+  - **Feels Like**: Temperature that feels like based on humidity and wind conditions.
 
 ## How to Use
 
@@ -25,36 +25,45 @@ WeatherPulse is a simple yet powerful weather application that allows users to g
 
 - JavaScript (or your preferred language)
 - HTML/CSS for the frontend
-- Weather API (e.g., OpenWeatherMap) for real-time weather data
+- Weather API for real-time weather data
 
 ## Installation
 
 1. Clone the repository:
-   bash
+   ```bash
    git clone https://github.com/yourusername/weatherpulse.git
+   ```
    
 2. Navigate to the project directory:
-   bash
+   ```bash
    cd weatherpulse
+   ```
    
 3. Install dependencies:
-   bash
+   ```bash
    npm install
+   ```
    
 4. Run the application:
-   bash
+   ```bash
    npm start
-   
+   ```
 
 ## Contributing
 
 Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
  
+
 ## Demo
 
-Check out the live demo [here](link-to-demo) (if available).
+Check out the live demo: https://vishalkumargupta1.github.io/WeatherPulse/
 
 ---
 
-Feel free to modify this template to better fit your project specifics!
+![Screenshot 2024-10-12 105445](https://github.com/user-attachments/assets/1455639c-7e2e-4f71-80e9-ad85b98d8157)
+
+
+
+
+![Screenshot 2024-10-12 105423](https://github.com/user-attachments/assets/caeadf7b-3f30-4284-99b2-8dc25f8d50a7)
